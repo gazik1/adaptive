@@ -1,10 +1,24 @@
 @font-face {
     font-family: Ginora Sans;
-    src: url(./Ginora\ Sans/Ginra\ Sans\ Regular.otf);
+    src: url(./GinoraSans/GinraSansLight.otf);
     font-weight: 400;
 }
 @font-face {
     font-family: Ginora Sans;
-    src: url(./Ginora\ Sans/Ginra\ Sans\ Bold.otf);
+    src: url(./GinoraSans/GinraSansRegular.otf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: Ginora Sans;
+    src: url(./GinoraSans/GinraSansBold.otf);
     font-weight: 700;
+}
+
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(./Gilroy/gilroy-regular.ttf);
+}
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(./Gilroy/gilroy-medium.ttf);
 }
