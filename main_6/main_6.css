@@ -7,19 +7,22 @@ display: grid;
 grid-template-columns: max-content 3px 1fr;
 justify-content: space-between;
 overflow: hidden;
-
+column-gap: 64px;
 }
 
 .main_6-border{
 height: 992px;
 width: 1px;
 background: linear-gradient(180deg, rgba(128, 147, 255, 0.00) 0%, #7d9afa4d 13.21%, #60DBD4 55.81%, rgba(92, 228, 207, 0.00) 100%);margin-left: 5px;
+
 }
 .main_6-profile{
 display: grid;
 grid-template-columns: 1fr 1fr;
 column-gap: 30px;
 max-width: 566px;
+
+
 }
 .main_6-profile-left{
 margin-top: 85px;
