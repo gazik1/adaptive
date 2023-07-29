@@ -1,0 +1,122 @@
+.main_6{
+    margin: 200px 0 0 auto;
+width: 100%;
+max-width: 1300px;
+height: 992px;
+display: grid;
+grid-template-columns: max-content 3px 1fr;
+justify-content: space-between;
+overflow: hidden;
+
+}
+
+.main_6-border{
+height: 992px;
+width: 1px;
+background: linear-gradient(180deg, rgba(128, 147, 255, 0.00) 0%, #7d9afa4d 13.21%, #60DBD4 55.81%, rgba(92, 228, 207, 0.00) 100%);margin-left: 5px;
+}
+.main_6-profile{
+display: grid;
+grid-template-columns: 1fr 1fr;
+column-gap: 30px;
+max-width: 566px;
+}
+.main_6-profile-left{
+margin-top: 85px;
+display: flex;
+flex-direction: column;
+row-gap: 60px;
+
+}
+.main_6-profile-right{
+display: flex;
+flex-direction: column;
+row-gap: 60px;
+
+}
+.main_6-profile-content{
+display: flex;
+flex-direction: column;
+}
+.main_6-profile-content-name{
+margin-top: 30px;
+color: #B8B8B8;
+text-align: center;
+font-family: Ginora Sans;
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 92.308% */
+text-transform: capitalize;
+}
+.main_6-profile-content-about{
+margin-top: 15px;
+color: #B8B8B8;
+text-align: center;
+font-family: Gilroy-Light;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 14px; 
+text-transform: capitalize;
+}
+.main_6-content{
+display: flex;
+flex-direction: column;
+height: 713px;
+width: 100%;
+max-width: 606px;
+background-color: #232526;
+margin-top: 83px;
+align-self: center;
+position: relative;
+box-sizing: border-box;
+padding-left: 69px;
+justify-self: flex-end;
+}
+#main_6-content-patern{
+width: 606px;
+height: 166px;
+position: absolute;
+top: -83px;
+left: 0;
+overflow-x: hidden;
+}
+.main_6-content-heading{
+margin: 0;
+margin-top: 173px;
+color: #FFF;
+max-width: 358px;
+font-family: Ginora Sans;
+font-size: 62px;
+font-style: normal;
+font-weight: 400;
+line-height: 74px;
+text-transform: capitalize;
+}
+.main_6-content-text{
+margin: 0;
+margin-top: 40px;
+max-width: 360px;
+color: #B8B8B8;
+font-family: Gilroy-Regular;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+.main_6-content-contaner{
+display: flex;
+column-gap: 10px;
+margin-top: 28.6px;
+cursor: pointer;
+}
+.main_6-content-contaner-txt{
+color: #99A9FF;
+font-family: Ginora Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 16px; /* 100% */
+text-transform: uppercase;
+}
