@@ -4,11 +4,22 @@
             max-width: 1160px;
             margin: 200px auto 0;
         }
+        @media(max-width:1060px){
+            .main_7{
+                margin: 100px auto 0;
+            }
+        }
         .main_7-border{
             width: 100%;
             height: 1px;
             background: linear-gradient(90deg, rgba(128, 147, 255, 0.00) 0%, #7D9BFA 21.14%, #60DBD4 78.80%, rgba(92, 228, 207, 0.00) 100%);
         }
+        @media(max-width:1060px){
+            .main_7-border{
+                display: none;
+            }
+        }
+
         .main_7-h2{
             margin: 30px 0 0;
             color: #F4F4F4;
@@ -19,12 +30,36 @@
             line-height: 74px; 
             text-transform: capitalize;
         }
+        @media(max-width:1060px){
+            .main_7-h2{
+                margin: 0 auto 0;
+                width: 292px;
+              
+                color: #F4F4F4;
+                font-family: Ginora Sans;
+                font-size: 42px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 56px; /* 133.333% */
+                text-transform: capitalize;
+            }
+        }
         .main_7-conteiner{
             margin-top: 140px;
             width: 100%;
             display: grid;
             grid-template-columns: 763px 267px;
             justify-content: space-between;
+        }
+        @media(max-width:1060px){
+            .main_7-conteiner{
+                margin-top: 60px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+             row-gap: 60px;
+            }
+          
         }
      .main_7-conteiner-content-block-margin{
         box-sizing: border-box;
@@ -95,7 +130,11 @@
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-        }      .main_7-conteiner-h3{
+        }
+        .main_7-conteiner-content-blok1-heading-h3-br-mobile{
+            display: none;
+        }
+        .main_7-conteiner-h3{
             color: var(--primary-title-color, #F4F4F4);
             font-family: Ginora Sans;
             font-size: 26px;
@@ -104,9 +143,112 @@
             line-height: 38px; /* 146.154% */
             text-transform: capitalize;
         }
+        @media(max-width:1060px){
+            .main_7-conteiner-content-blok1{
+                width: 360px;
+                margin: 0 auto 0;
+                
+            }
+            .main_7-conteiner-content-blok2{
+                width: 360px;
+                margin: 0 auto 0;
+                
+            }
+            .main_7-conteiner-content-blok3{
+                width: 360px;
+                margin: 0 auto 0;
+                
+            }
+            .main_7-conteiner-content-blok2-gradient{
+                margin: 40px 0 30px 0;
+            }
+            .main_7-conteiner-content-block-margin{
+                padding: 0;
+            }
+            .main_7-conteiner-content-blok1-name{
+                color: var(--sub-title-70, rgba(184, 184, 184, 0.70));
+
+                /* (mobile) H6- 12px */
+                font-family: Ginora Sans;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 18px; /* 150% */
+                letter-spacing: 3.6px;
+                text-transform: uppercase;
+            }
+            .main_7-conteiner-content-blok1-heading-h3{
+                margin-top: 10px;
+                color: #F4F4F4;
+
+                /* (mobile) H3 - 26px */
+                font-family: Ginora Sans;
+                font-size: 26px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-transform: capitalize;
+            }
+            .main_7-conteiner-content-blok1-heading-h3-br{
+                display: none;
+            }
+            .main_7-conteiner-content-blok1-heading-h3-br-mobile{
+                display: block;
+            }
+            .main_7-conteiner-content-blok1-heading-img{
+                right: 0px;
+                width: 30px;
+            }
+            .main_7-conteiner-content-blok1-about{
+                color: var(--sub-title-70, rgba(184, 184, 184, 0.70));
+                font-family: Gilroy-Medium;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 16px; /* 133.333% */
+                text-transform: capitalize;
+            }
+        }
         .main_7-conteiner-jobs-content{
             display: grid;
             row-gap: 20px;
+        }
+        @media(max-width:1060px){
+            .main_7-conteiner-jobs{
+                order: 1;
+                width: 267px;
+                align-self: center;
+            }
+            .main_7-conteiner-h3{
+                margin: 0;
+                color: var(--primary-title-color, #F4F4F4);
+
+                /* (mobile) H3 - 26px */
+                font-family: Ginora Sans;
+                font-size: 26px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-transform: capitalize;
+            }
+            .main_7-conteiner-jobs-content{
+                margin-top: 30px;
+            }
+            .main_7-conteiner-jobs-content-block-h5{
+                color: #B8B8B8;
+
+                /* (mobile) H4 - 20px */
+                font-family: Ginora Sans;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-transform: capitalize;
+            }
+            .main_7-conteiner-content{
+                order: 2;
+            }
+         
         }
         .main_7-conteiner-jobs-content-block{
             position: relative;
@@ -162,4 +304,9 @@
             font-weight: 600;
             line-height: 16px; /* 100% */
             text-transform: uppercase;
+        }
+        @media(max-width:1060px){
+            .main_7-end{
+                margin-left: 21px;
+            }
         }
