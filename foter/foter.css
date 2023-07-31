@@ -7,15 +7,26 @@
 
     justify-content: space-between;
 }
+
+@media(max-width:1060px){
+
+    .foter{
+    max-width: 328px;
+    grid-template-columns: 328px;
+    margin:100px auto 0 ;
+}
+
+}
 .foter-left{
     height: 442px;
 
     display: grid;
     grid-template-rows: max-content max-content 1fr;
 }
+
+
 .foter-left-h1{
     margin: 0;
-    width: 565px;
     font-family: Ginora Sans;
     font-size: 62px;
     font-style: normal;
@@ -44,6 +55,43 @@
     column-gap: 30px;
     align-self: flex-end;
 }
+
+@media(max-width:1060px){
+    .foter-left{
+   
+        height: auto;
+        display: grid;
+        grid-template-rows: max-content max-content;
+    }
+    .foter-left-h1{
+        
+        /* (mobile) H2 - 36px  */
+        font-family: Ginora Sans;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 44px; /* 122.222% */
+        text-transform: capitalize;
+    }
+    .foter-left-p{
+        margin: 20px 0 0;
+        width: 320px;
+    
+        color: #B8B8B8;
+        font-family: Gilroy-Regular;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+    }
+    .foter-mobile-block{
+        display: block;
+    }
+    .foter-left-block{
+        display: none;
+    }
+}
+
 .foter-left-block-span{
     color: #B8B8B8;
 
@@ -60,6 +108,12 @@
     min-height: 442px;
     display: grid;
     grid-template-rows: max-content max-content 1fr;
+}
+@media(max-width:1060px){
+    .foter-right{
+        margin-top: 60px;
+        min-height: auto;
+    }
 }
 .foter-right-forma{
     display: grid;
@@ -80,6 +134,27 @@
     font-weight: 400;
     line-height: 26px; /* 118.182% */
     text-transform: capitalize;
+}
+@media(max-width:1060px){
+    .foter-right-forma{
+        grid-template-rows: 39px 39px 39px;
+    }
+    .foter-right-forma-information{
+        grid-template-rows: max-content 1fr;
+    }
+    .foter-right-forma-information-span{
+        color: #B8B8B8;
+        font-family: Gilroy-Regular;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px; /* 114.286% */
+        text-transform: uppercase;
+    }
+   
+
+
+
 }
 .foter-right-forma-information-gradient{
     width: 80px;
@@ -132,16 +207,65 @@
     letter-spacing: 4.8px;
     text-transform: uppercase;
 }
+.foter-right-aboutMobile{
+    display: none;
+}
+.foter-left-block-span-gradient{
+    color: #99A9FF;
+}
+@media(max-width:1060px){
+    .foter-right-about{
+        display: none;
+    }
+    .foter-right-aboutMobile{
+        display: grid;
+        margin-top: 80px;
+    }
+    .foter-right-aboutMobile-top{
+        display: flex;
+        width: 100%;
+        column-gap: 20px;
+    justify-content: space-between;
+    }
+    .foter-right-about-span{
+        color: #B8B8B8;
+        font-family: Ginora Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px; /* 150% */
+        text-transform: uppercase;
+        letter-spacing: 0;
+    }
+    .foter-right-aboutMobile-bottom{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: max-content max-content;
+        justify-content: center;
+        column-gap: 20px;
+    }
+    .foter-left-block-span-gradient{
+        color: #99A9FF;
+    }
+}
 .foter-borderGradient{
     margin-top: 90px;
     background: linear-gradient(90deg, rgba(128, 147, 255, 0.25) 0%, #7D9BFA 21.14%, #60DBD4 78.80%, rgba(92, 228, 207, 0.25) 100%);
     height: 1px;
 }
+@media(max-width:1060px){
+    .foter-borderGradient{
+        margin-top: 80px;
+    }
+}
+
 .foter-text{
     margin-top: 60px;
     width: 100%;
     display: grid;
     justify-content: center;
+    padding-bottom: 40px;
+
 }
 .foter-text-span{
     color: #B8B8B8;
@@ -166,5 +290,32 @@
     line-height: normal;
     letter-spacing: 4.8px;
     text-transform: uppercase;
-    padding-bottom: 40px;
+}
+@media(max-width:1060px){
+    .foter-text{
+        margin-top: 30px;
+    padding-bottom: 30px;
+
+    }
+    .foter-text-span{
+        color: #B8B8B8;
+        font-family: Ginora Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px; /* 100% */
+        text-transform: capitalize;
+        letter-spacing:0;
+    }
+    .foter-text-span-gradient{
+        color: #99A9FF;
+        font-family: Ginora Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        text-decoration-line: underline;
+        text-transform: capitalize;
+        letter-spacing:0;
+    }
 }
