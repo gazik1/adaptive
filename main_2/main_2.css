@@ -1,0 +1,21 @@
+.main_2{
+    margin: 200px auto 0;
+    width: 100%;
+    max-width: 1160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+@media (max-width:1060px){
+    .main_2{
+        margin: 100px auto 0;
+        width: 100%;
+        max-width: 322px;
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        align-items: center ;
+        row-gap: 20px;
+    }
+}
