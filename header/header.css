@@ -104,3 +104,17 @@
         display: none;
     }
 }
+.header{
+    position: relative;
+}
+.header-dectop{
+    display: none;
+}
+@media(min-width:1060px){
+    .header-dectop{
+        display: block;
+        position: absolute;
+        right: 0px;
+        bottom: -60px;
+    }
+}
