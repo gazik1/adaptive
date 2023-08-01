@@ -1,0 +1,138 @@
+.main_6{
+    margin: 200px 0 0 auto;
+width: 100%;
+max-width: 1300px;
+height: 992px;
+display: grid;
+grid-template-columns: max-content 3px 1fr;
+justify-content: space-between;
+column-gap: 64px;
+}
+@media(max-width:1060px){
+    .main_6{
+        height: max-content;
+        margin: 100px 0 0 0;
+        display: flex;
+        grid-template-columns: 1fr ;
+        justify-content:unset;
+        flex-direction: column;
+        background-color: #232526;
+    }
+}
+
+.main_6-border{
+height: 992px;
+width: 1px;
+background: linear-gradient(180deg, rgba(128, 147, 255, 0.00) 0%, #7d9afa4d 13.21%, #60DBD4 55.81%, rgba(92, 228, 207, 0.00) 100%);margin-left: 5px;
+
+}
+.main_6-profile{
+display: grid;
+grid-template-columns: 1fr 1fr;
+column-gap: 30px;
+max-width: 566px;
+}
+@media(max-width:1060px){
+    .main_6-border{
+        display: none;
+    }
+    .main_6-profile{
+        width: 320px;
+        margin: 0 auto 0;
+    }
+}
+.main_6-profile-left{
+margin-top: 85px;
+display: flex;
+flex-direction: column;
+row-gap: 60px;
+
+}
+.main_6-profile-right{
+display: flex;
+flex-direction: column;
+row-gap: 60px;
+
+}
+.main_6-profile-content{
+display: flex;
+flex-direction: column;
+}
+.main_6-profile-content-img{
+    width: 268px;
+height: 340px;
+
+}
+@media (max-width:1060px){
+    .main_6-profile-content-img{
+        width: 150px;
+        height: 190px;
+    
+    } 
+    .main_6-profile-left{
+        margin-top: 60px;
+    
+        row-gap: 52px;
+        
+        }
+        .main_6-profile-right{
+            margin-top: 90px;
+        row-gap: 52px;
+        
+        }
+}
+
+.main_6-content{
+display: flex;
+flex-direction: column;
+height: 713px;
+width: 100%;
+max-width: 606px;
+background-color: #232526;
+margin-top: 83px;
+align-self: center;
+position: relative;
+box-sizing: border-box;
+padding-left: 69px;
+justify-self: flex-end;
+}
+#main_6-content-patern{
+    display: flex;
+    width: 100%;
+    height: 166px;
+    position: absolute;
+    top: -83px;
+    left: -20px;
+    overflow: hidden;
+}
+@media (max-width:1060px){
+    .main_6-content{
+        margin-top: 60px;
+
+height: max-content;
+width: 100%;
+max-width: 294px;
+
+align-self: center;
+position: relative;
+box-sizing: border-box;
+padding-left: 0;
+justify-self: flex-end;
+padding-bottom: 60px;
+    }
+    #main_6-content-patern{
+        display: none;
+    }
+}
+.main_6-content-patern-img{
+    width: 606px;
+    height: 166px;
+}
+
+
+.main_6-content-contaner{
+display: flex;
+column-gap: 10px;
+margin-top: 28.6px;
+cursor: pointer;
+}

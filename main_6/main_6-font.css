@@ -1,0 +1,101 @@
+.main_6-profile-content-name{
+margin-top: 30px;
+color: #B8B8B8;
+text-align: center;
+font-family: Ginora Sans;
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 92.308% */
+text-transform: capitalize;
+}
+.main_6-profile-content-about{
+margin-top: 15px;
+color: #B8B8B8;
+text-align: center;
+font-family: Gilroy-Light;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 14px; 
+text-transform: capitalize;
+}
+.main_6-content-heading{
+margin: 0;
+margin-top: 173px;
+color: #FFF;
+max-width: 358px;
+font-family: Ginora Sans;
+font-size: 62px;
+font-style: normal;
+font-weight: 400;
+line-height: 74px;
+text-transform: capitalize;
+}
+.main_6-content-text{
+margin: 0;
+margin-top: 40px;
+max-width: 360px;
+color: #B8B8B8;
+font-family: Gilroy-Regular;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+.main_6-content-contaner-txt{
+color: #99A9FF;
+font-family: Ginora Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 16px; /* 100% */
+text-transform: uppercase;
+}
+@media(max-width:1060px){
+    .main_6-profile-content-name{
+        color: var(--secondary-title-color, #B8B8B8);
+        text-align: center;
+        font-family: Ginora Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-top: 20px;
+    }
+
+    .main_6-profile-content-about{
+        margin-top: 8px;
+        color: var(--sub-title-70, rgba(184, 184, 184, 0.70));
+        text-align: center;
+        font-family: Gilroy-Light;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px; /* 87.5% */
+        text-transform: capitalize;
+    }
+    .main_6-content-heading{
+        margin: 0;
+        width: 277px;
+        color: #FFF;
+
+        /* (mobile) H2 - 36px  */
+        font-family: Ginora Sans;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 44px; /* 122.222% */
+        text-transform: capitalize;
+    }
+    .main_6-content-text{
+        width: 294px;
+        color: #B8B8B8;
+font-family: Gilroy-Regular;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+    }
+}
