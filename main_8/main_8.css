@@ -217,4 +217,7 @@
     .main_8-foter-left{
         order: 2;
     }
+    .main_8-foter-right>img{
+        width: 100%;
+    }
 }
