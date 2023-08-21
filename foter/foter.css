@@ -120,6 +120,10 @@
     grid-template-rows: 48px 48px 48px;
     row-gap: 40px;
 }
+.foter-right-forma-information:focus-within{
+    border: 2px solid rgb(168, 168, 168);
+    z-index: 2;
+    }
 .foter-right-forma-information{
     display: grid;
     position: relative;

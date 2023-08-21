@@ -28,3 +28,9 @@ button{
         background-repeat: no-repeat;
     }
 }
+input{
+    background-color: unset;
+    border: 0;
+    outline: 0;
+
+}
