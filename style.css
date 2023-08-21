@@ -3,3 +3,9 @@ html,body{
     width: 100%;
     background-color: #1D1D1D;
 }
+input{
+    background-color: unset;
+    border: 0;
+    outline: 0;
+
+}

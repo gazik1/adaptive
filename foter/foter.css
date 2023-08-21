@@ -120,9 +120,14 @@
     grid-template-rows: 48px 48px 48px;
     row-gap: 40px;
 }
+.foter-right-forma-information:focus-within{
+border: 2px solid rgb(168, 168, 168);
+z-index: 2;
+}
 .foter-right-forma-information{
     display: grid;
     position: relative;
+
 }
 .foter-right-forma-information-span{
     color: #B8B8B8;
@@ -164,11 +169,13 @@
     position: absolute;
     bottom: -1px;
     left: 30px;
+    z-index: -1;
 }
 .foter-right-forma-information-border{
     height: 1px;
     background: #565656;
     align-self:flex-end;
+    z-index: -1;
 }
 .foter-right-forma-information-margin{
     margin-left: 30px;
